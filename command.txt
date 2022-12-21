@@ -1,0 +1,14 @@
+ssh-keygen -t rsa
+cat keyname.pub
+
+mkdir cdd
+cd cdd
+git init
+git clone link
+vi hello.txt
+cat hello.txt
+git status
+git add .
+git status
+git commit -m "version1"
+git push hello.txt
